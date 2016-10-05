@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/vast-lemur', function(request, response){
-    response.send('YOU SHOULD PUT YOUR NICKNAME HERE!');
+    response.send('vast-lemur');
 });
 
 app.get('/', function(request, response){
