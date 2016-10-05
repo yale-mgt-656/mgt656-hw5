@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.get('/vast-lemur', function(request, response){
+app.get('/nickname', function(request, response){
     response.send('vast-lemur');
 });
 
